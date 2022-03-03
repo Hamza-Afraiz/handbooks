@@ -71,6 +71,20 @@ Why Gists are so popular? In open source community you want to create content & 
    - Search Results in Grid View
    ![Notebook – 6](images/search_gridview.PNG)
 
+
+### Important Points
+
+- Follow docs https://docs.github.com/en/rest/reference/gists for Gist Api Documentation.
+- Use Personal Token for Authorization
+- Dont Use Fetch Method for getting public and private gists in paralell.
+- Everything must be live e.g,if you star some gist . It should be visible in starred gists.
+- Dont allow any options untill user hasn't logged in.
+- If your open starred gists,the star icon should be filled.
+- If you open public Gist,edit and delete option shouldn't be visible.
+  
+
+  
+
 ## Tech Stack
 
 - React
