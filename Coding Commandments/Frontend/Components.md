@@ -10,7 +10,7 @@ Use nouns for naming your components. Nouns, in English language, refer to names
 Wrap each component's resources inside its own directory. For example, a component `Header.js` can be placed inside `src/components/Header`, along with its dependent files such as `Header.scss` etc.
 
 # Be Dumb
-Begin writing a React component as a [dumb component](https://medium.com/@thejasonfile/dumb-components-and-smart-components-e7b33a698d43) (a function based component). Convert it to a smart component (a class based component) only if you need either component state, or lifecycle hooks.
+Begin writing a React component as a [dumb component](https://medium.com/@thejasonfile/dumb-components-and-smart-components-e7b33a698d43) (a function based component). Convert it to a smart component only if you need either component state, or lifecycle hooks.
 
 # Avoid State
 Avoid using state within components as much as possible. Use component state only when there is some information that's very local to the component itself, for example, toggle state of a drop down component. Use Redux for all other scenarios.

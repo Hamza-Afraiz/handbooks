@@ -81,6 +81,12 @@ Why Gists are so popular? In open source community you want to create content & 
 - Dont allow any options untill user hasn't logged in.
 - If your open starred gists,the star icon should be filled.
 - If you open public Gist,edit and delete option shouldn't be visible.
+
+### Reusable Components Approach
+
+- Create generic component and then use it on different pages e.g, Gist Code Component (where gist code is shown ) should be reusable in Grid View and also on different routes.
+- Mentioned component is attached below.
+![Notebook](https://user-images.githubusercontent.com/15946354/62457649-b28ae280-b794-11e9-92cd-3d368a28568a.png)
   
 
   

@@ -96,10 +96,11 @@
 ## Functionality
 
 -		user can view temprature both in centigrade and farenhite  
+-       dont use api to change temperature unit   
 -		user can switch between days to get detailed temprature of that day  
 -		each section of per day temprature show min max temprature of day  
 -		relavent images/icons will show the weather condition  
--		area chart will show the complete temprature of a day with an interval of 3 hour  
+-		area chart will show the complete temprature of next 5 days 
 
 ### Screenshots
 
